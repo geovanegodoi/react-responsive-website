@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import styles from './navbar.module.css';
 
 /* eslint-disable-next-line */
@@ -5,9 +6,13 @@ export interface NavbarProps {}
 
 export function Navbar(props: NavbarProps) {
   return (
-    <div className={styles['container']}>
-      <h1>Welcome to Navbar!</h1>
-    </div>
+    <nav className={styles.nav}>
+      <h1>GGodoi</h1>
+      <div className="flex-grow"></div>
+      <Link to="/">Home</Link>
+      <Link to="/features">Features</Link>
+      <Link to="/docs">Docs</Link>
+    </nav>
   );
 }
 

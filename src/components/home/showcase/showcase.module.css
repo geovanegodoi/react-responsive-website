@@ -1,7 +1,41 @@
-/*
- * Replace this with your own classes
- *
- * e.g.
- * .container {
- * }
-*/
+.showcase {
+  background: var(--primary-color);
+  padding: 1em var(--default-side-padding);
+  display: grid;
+  grid-template-columns: 4fr 3fr;
+  color: var(--light-color);
+  align-items: center;
+  position: relative;
+}
+
+.showcase > div:last-child {
+  position: relative;
+  top: 60px;
+}
+
+:root {
+  --degree: -5deg;
+}
+
+.showcase::after {
+  content: '';
+  position: absolute;
+  background: var(--primary-color);
+  height: 120px;
+  left: 0;
+  right: 0;
+  bottom: -40px;
+  transform: skewY(var(--degree));
+  -webkit-transform: skewY(var(--degree));
+  -moz-transform: skewY(var(--degree));
+  -ms-transform: skewY(var(--degree));
+}
+
+.showcase-text > h1 {
+  font-size: 40px;
+  font-weight: 900;
+}
+
+.showcase-text > button {
+  margin-top: 2em;
+}

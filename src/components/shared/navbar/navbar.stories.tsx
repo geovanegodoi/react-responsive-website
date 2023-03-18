@@ -1,5 +1,6 @@
 import type { Meta } from '@storybook/react';
 import { Navbar } from './navbar';
+import { BrowserRouter } from 'react-router-dom';
 
 const Story: Meta<typeof Navbar> = {
   component: Navbar,

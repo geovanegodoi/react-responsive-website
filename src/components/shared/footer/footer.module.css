@@ -1,7 +1,31 @@
-/*
- * Replace this with your own classes
- *
- * e.g.
- * .container {
- * }
-*/
+footer {
+  background: var(--dark-color);
+  color: var(--light-color);
+  width: 100%;
+  height: 220px;
+  padding: 64px var(--default-side-padding);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+}
+
+.copyright > h1 {
+  font-weight: 300;
+  line-height: 1.2;
+  font-size: 2em;
+}
+
+.menu {
+  justify-self: start;
+  display: flex;
+  flex-direction: column;
+}
+.menu > a {
+  color: var(--light-color);
+}
+
+.social-medias {
+  display: flex;
+  gap: 1em;
+  justify-self: end;
+}

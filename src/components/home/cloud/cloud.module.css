@@ -1,7 +1,26 @@
-/*
- * Replace this with your own classes
- *
- * e.g.
- * .container {
- * }
-*/
+.cloud {
+  margin: 0em 0em;
+  background: var(--primary-color);
+  color: var(--light-color);
+  padding: 2rem var(--default-side-padding);
+  display: grid;
+  grid-template-columns: 4fr 3fr;
+  align-items: center;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-center > h1 {
+  font-size: 3rem;
+}
+
+.text-center > button {
+  margin: 1.5em 0em;
+}
+
+.cloud > img {
+  width: 100%;
+  justify-self: center;
+}

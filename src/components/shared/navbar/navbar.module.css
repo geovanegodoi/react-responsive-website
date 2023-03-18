@@ -1,7 +1,28 @@
-/*
- * Replace this with your own classes
- *
- * e.g.
- * .container {
- * }
-*/
+nav {
+  background: var(--primary-color);
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  gap: 2em;
+  padding: 0% var(--default-side-padding);
+}
+
+nav * {
+  color: var(--light-color);
+}
+
+nav h1 {
+  font-size: 2em;
+  font-weight: 300;
+  line-height: 1.2em;
+}
+
+nav a {
+  line-height: 1.6em;
+  height: 30px;
+}
+
+nav a:hover {
+  border-bottom: 2px #fff solid;
+}

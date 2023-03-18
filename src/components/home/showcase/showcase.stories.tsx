@@ -1,4 +1,5 @@
 import type { Meta } from '@storybook/react';
+import { RouterProviderDecorator } from '../../../routes';
 import { Showcase } from './showcase';
 
 const Story: Meta<typeof Showcase> = {

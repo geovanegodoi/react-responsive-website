@@ -1,7 +1,17 @@
-/*
- * Replace this with your own classes
- *
- * e.g.
- * .container {
- * }
-*/
+.languages {
+  padding: 0 var(--default-side-padding) 2em;
+  text-align: center;
+}
+
+.languages > h2 {
+  font-size: 2rem;
+  height: 2em;
+}
+
+.languages-container {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  align-items: center;
+  justify-content: start;
+  gap: 1em;
+}

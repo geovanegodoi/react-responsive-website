@@ -1,0 +1,40 @@
+.showcase-form {
+  background-color: #fff;
+  color: #333;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+  position: relative;
+  height: 350px;
+  width: 400px;
+  padding: 30px 40px;
+  z-index: 100;
+  animation: slideInFromRight 1s ease-in;
+}
+
+.showcase-form > form {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.showcase-form > h2 {
+  margin-bottom: 1.5em;
+}
+
+.showcase-form > form input[type='text'],
+.showcase-form > form input[type='email'] {
+  border: 0;
+  border-bottom: 1px solid #b4becb;
+  width: 100%;
+  padding: 3px;
+  font-size: 16px;
+}
+
+.showcase-form > form input:focus {
+  outline: none;
+}
+
+.showcase-form > form button {
+  align-self: flex-start;
+}

@@ -1,7 +1,50 @@
+.stats {
+  margin: 0em 0em;
+  padding: 0 var(--default-side-padding);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5em;
+}
+
+.stats > h3 {
+  max-width: 500px;
+  margin: auto;
+}
+
+.stats-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.stat-item > h3 {
+  font-size: 35px;
+}
+
+.stat-item > p {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--secondary-color);
+}
+
 /*
- * Replace this with your own classes
- *
- * e.g.
- * .container {
- * }
+.stats {
+  padding-top: 100px;
+  animation: slideInFromBottom 1s ease-in;
+}
+
+.stats-heading {
+  max-width: 500px;
+  margin: auto;
+}
+
+.stats .grid h3 {
+  font-size: 35px;
+}
+
+.stats .grid p {
+  font-size: 20px;
+  font-weight: bold;
+}
+
 */

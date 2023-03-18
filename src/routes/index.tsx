@@ -1,8 +1,8 @@
-import React from 'react';
 import {
   createBrowserRouter,
   createRoutesFromElements,
   Route,
+  RouterProvider,
 } from 'react-router-dom';
 import { DocsPage, FeaturesPage, HomePage, LayoutPage } from '../pages';
 
@@ -17,3 +17,17 @@ const appRoutes = createBrowserRouter(
 );
 
 export default appRoutes;
+
+export function RouterProviderDecorator({
+  children,
+}: {
+  children: JSX.Element;
+}) {
+  return (
+    <RouterProvider
+      router={createBrowserRouter(
+        createRoutesFromElements(<Route path="*" element={children} />)
+      )}
+    />
+  );
+}
