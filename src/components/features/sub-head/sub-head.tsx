@@ -1,5 +1,5 @@
 import styles from './sub-head.module.css';
-import { server2 } from '@website/assets';
+import server2 from '/assets/server2.png';
 
 /* eslint-disable-next-line */
 export interface SubHeadProps {}

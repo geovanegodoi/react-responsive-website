@@ -1,5 +1,5 @@
 import styles from './cli.module.css';
-import { cli } from '@website/assets';
+import cli from '/assets/cli.png';
 import { Card } from '@website/components/shared';
 
 /* eslint-disable-next-line */

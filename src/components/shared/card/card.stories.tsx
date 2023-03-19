@@ -1,6 +1,6 @@
 import type { Meta } from '@storybook/react';
 import { Card, CardProps } from './card';
-import { node } from '@website/assets';
+import node from '/assets/node.png';
 
 const Story: Meta<typeof Card> = {
   component: Card,

@@ -1,6 +1,7 @@
 import type { Meta } from '@storybook/react';
 import { Head } from './head';
-import { server, docs } from '@website/assets';
+import server from '/assets/server.png';
+import docs from '/assets/docs.png';
 
 const Story: Meta<typeof Head> = {
   component: Head,

@@ -1,5 +1,5 @@
 import styles from './cloud.module.css';
-import { cloud } from '@website/assets';
+import cloud from '/assets/cloud.png';
 import { Button } from '@website/components/shared';
 
 /* eslint-disable-next-line */

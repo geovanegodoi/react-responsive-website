@@ -20,7 +20,6 @@
     "strict": true,
     "types": ["vite/client", "vitest"],
     "paths": {
-      "@website/assets": ["src/assets/index.ts"],
       "@website/components/docs": ["src/components/docs/index.ts"],
       "@website/components/features": ["src/components/features/index.ts"],
       "@website/components/home": ["src/components/home/index.ts"],

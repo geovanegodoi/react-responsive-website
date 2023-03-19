@@ -1,6 +1,6 @@
 import { Container as Doc } from '@website/components/docs';
 import { Alert, Code } from '@website/components/shared';
-import { docker } from '@website/assets';
+import docker from '/assets/docker.png';
 
 /* eslint-disable-next-line */
 export interface SetupContainerPageProps {}

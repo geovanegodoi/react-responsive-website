@@ -1,13 +1,11 @@
 import styles from './languages.module.css';
-import {
-  node,
-  python,
-  csharp,
-  ruby,
-  php,
-  scala,
-  clojure,
-} from '@website/assets';
+import node from '/assets/node.png';
+import python from '/assets/python.png';
+import csharp from '/assets/csharp.png';
+import ruby from '/assets/ruby.png';
+import php from '/assets/php.png';
+import scala from '/assets/scala.png';
+import clojure from '/assets/clojure.png';
 import { Card } from '@website/components/shared';
 
 /* eslint-disable-next-line */

@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Button } from '@website/components/shared';
 import styles from './not-found-page.module.css';
-import { robot } from '@website/assets';
+import robot from '/assets/robot.png';
 
 /* eslint-disable-next-line */
 export interface NotFoundPageProps {}
