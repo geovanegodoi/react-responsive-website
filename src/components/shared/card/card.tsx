@@ -2,7 +2,6 @@ import styles from './card.module.css';
 
 /* eslint-disable-next-line */
 export interface CardProps {
-  animateHover?: boolean;
   text?: string;
   image?: string;
   variant?: 'image' | 'icon';

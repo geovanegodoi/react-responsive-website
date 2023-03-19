@@ -9,7 +9,7 @@ const Story: Meta<typeof HomePage> = {
     (Story) => (
       <div>
         <Navbar />
-        <Story />
+        {Story()}
         <Footer />
       </div>
     ),

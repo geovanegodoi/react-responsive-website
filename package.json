@@ -7,6 +7,7 @@
     "build": "nx build react-responsive-website",
     "test": "nx test react-responsive-website",
     "storybook": "NODE_OPTIONS=--openssl-legacy-provider nx run react-responsive-website:storybook",
+    "storybook-docs": "NODE_OPTIONS=--openssl-legacy-provider start-storybook --docs --no-manager-cache",
     "lint": "nx lint react-responsive-website",
     "deploy": "firebase deploy"
   },
