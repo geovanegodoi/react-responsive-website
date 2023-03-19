@@ -1,10 +1,10 @@
 import { render } from '@testing-library/react';
 
-import DocsPage from './docs-page';
+import LayoutDocsPage from './layout-docs-page';
 
 describe('Docs', () => {
   it('should render successfully', () => {
-    const { baseElement } = render(<DocsPage />);
+    const { baseElement } = render(<LayoutDocsPage />);
     expect(baseElement).toBeTruthy();
   });
 });

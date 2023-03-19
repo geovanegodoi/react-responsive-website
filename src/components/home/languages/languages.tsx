@@ -29,10 +29,10 @@ export function Languages(props: LanguagesProps) {
         {supportedLanguages.map((language, index) => (
           <Card
             key={index}
-            image={language.image}
             text={language.name}
+            image={language.image}
+            variant="image"
             display="column"
-            orientation="image-text"
           />
         ))}
       </div>

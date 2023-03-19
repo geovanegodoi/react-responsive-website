@@ -27,7 +27,19 @@ export const WithImage = {
     animateHover: true,
     text: 'Node.js',
     image: node,
+    variant: 'image',
     display: 'row',
-    orientation: 'image-text',
+    orientation: 'default',
+  } as CardProps,
+};
+
+export const WithIcon = {
+  args: {
+    animateHover: true,
+    text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, magnam',
+    image: 'fas fa-server fa-3x',
+    variant: 'icon',
+    display: 'row',
+    orientation: 'default',
   } as CardProps,
 };

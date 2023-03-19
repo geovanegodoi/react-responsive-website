@@ -1,7 +1,29 @@
-/*
- * Replace this with your own classes
- *
- * e.g.
- * .container {
- * }
-*/
+.features-list {
+  margin: 1em 0em;
+  background-color: #fff;
+  padding: 2rem var(--default-side-padding);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 1em;
+}
+
+.features-list > div:nth-child(1) {
+  grid-column: span 3;
+  grid-row: 1;
+}
+
+.features-list > div:nth-child(2) {
+  grid-column: span 2;
+  grid-row: 2;
+}
+
+.features-list > div:nth-child(3) {
+  grid-row: 2;
+}
+
+.features-list > div:nth-child(4),
+.features-list > div:nth-child(5),
+.features-list > div:nth-child(6) {
+  grid-row: 3;
+}
