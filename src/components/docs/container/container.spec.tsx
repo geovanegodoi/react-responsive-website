@@ -1,10 +1,10 @@
 import { render } from '@testing-library/react';
 
-import Head from './head';
+import Container from './container';
 
-describe('Head', () => {
+describe('Container', () => {
   it('should render successfully', () => {
-    const { baseElement } = render(<Head />);
+    const { baseElement } = render(<Container />);
     expect(baseElement).toBeTruthy();
   });
 });

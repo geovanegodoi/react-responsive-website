@@ -6,7 +6,7 @@ export interface NavbarProps {}
 
 export function Navbar(props: NavbarProps) {
   return (
-    <nav className={styles.nav}>
+    <nav className={styles['navbar']}>
       <h1>GGodoi</h1>
       <div className="flex-grow"></div>
       <Link to="/">Home</Link>

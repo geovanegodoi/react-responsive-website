@@ -1,10 +1,10 @@
 import { render } from '@testing-library/react';
 
-import Introduction from './introduction';
+import SummarySection from './summary-section';
 
-describe('Introduction', () => {
+describe('SummarySection', () => {
   it('should render successfully', () => {
-    const { baseElement } = render(<Introduction />);
+    const { baseElement } = render(<SummarySection />);
     expect(baseElement).toBeTruthy();
   });
 });

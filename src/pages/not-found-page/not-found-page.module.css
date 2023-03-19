@@ -1,0 +1,36 @@
+.not-found-page {
+  padding: 5em;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.not-found-page > img {
+  height: 300px;
+  object-fit: contain;
+  justify-content: end;
+}
+
+.not-found-page > div {
+  justify-self: start;
+}
+
+.not-found-text > h1 {
+  color: var(--secondary-color);
+  font-size: 100px;
+  font-weight: bold;
+  line-height: 1em;
+}
+
+.not-found-text > h2 {
+  color: var(--primary-color);
+  font-weight: bold;
+  line-height: 0em;
+  margin-bottom: 2em;
+}
+
+.not-found-text > p,
+.not-found-text > button {
+  margin-bottom: 2em;
+}

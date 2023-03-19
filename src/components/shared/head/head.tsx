@@ -2,18 +2,20 @@ import styles from './head.module.css';
 import ServerImg from '../../../assets/server.png';
 
 /* eslint-disable-next-line */
-export interface HeadProps {}
+export interface HeadProps {
+  title: string;
+  subTitle: string;
+  image: string;
+}
 
-export function Head(props: HeadProps) {
+export function Head({ title, subTitle, image }: HeadProps) {
   return (
     <section className={styles['head']}>
       <div className={styles['text-container']}>
-        <h1>Features</h1>
-        <p>
-          Check out the features of Loruki that separate us from the competition
-        </p>
+        <h1>{title}</h1>
+        <p>{subTitle}</p>
       </div>
-      <img src={ServerImg} alt="server" />
+      <img src={image} alt="head" />
     </section>
   );
 }

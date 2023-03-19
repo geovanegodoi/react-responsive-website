@@ -1,8 +1,9 @@
+import { OneOrMany } from 'src/models';
 import styles from './button.module.css';
 
 /* eslint-disable-next-line */
 export interface ButtonProps {
-  children: string | JSX.Element | JSX.Element[];
+  children: string | OneOrMany<JSX.Element>;
   variant: 'primary' | 'secondary' | 'light' | 'dark' | 'outline';
 }
 

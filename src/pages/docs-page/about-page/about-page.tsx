@@ -1,13 +1,15 @@
 import styles from './about-page.module.css';
+import Container from '../../../components/docs/container/container';
+import * as Stories from '../../../components/docs/container/container.stories';
 
 /* eslint-disable-next-line */
 export interface AboutPageProps {}
 
 export function AboutPage(props: AboutPageProps) {
   return (
-    <div className={styles['container']}>
-      <h1>Welcome to AboutPage!</h1>
-    </div>
+    <section className={styles['about-page']}>
+      <Container {...Stories.About.args} />
+    </section>
   );
 }
 

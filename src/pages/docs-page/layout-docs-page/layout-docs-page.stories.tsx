@@ -4,7 +4,7 @@ import { LayoutDocsPage } from './layout-docs-page';
 
 const Story: Meta<typeof LayoutDocsPage> = {
   component: LayoutDocsPage,
-  title: 'Pages/Docs',
+  title: 'Pages/Docs/Layout',
   decorators: [
     (Story) => (
       <div>

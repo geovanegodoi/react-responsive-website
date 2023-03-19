@@ -3,7 +3,7 @@ import { LayoutPage } from './layout-page';
 
 const Story: Meta<typeof LayoutPage> = {
   component: LayoutPage,
-  title: 'Pages/Layout Page',
+  title: 'Pages/Layout',
 };
 export default Story;
 

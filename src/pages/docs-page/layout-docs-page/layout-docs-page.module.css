@@ -1,7 +1,6 @@
-/*
- * Replace this with your own classes
- *
- * e.g.
- * .container {
- * }
-*/
+.docs-page-grid {
+  padding: 2em var(--default-side-padding);
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 2em;
+}
