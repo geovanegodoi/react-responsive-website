@@ -1,4 +1,4 @@
-import { Button } from '../../../components/shared';
+import { Button } from '@website/components/shared';
 import ShowcaseForm from '../showcase-form/showcase-form';
 import styles from './showcase.module.css';
 

@@ -1,4 +1,4 @@
-import { OneOrMany } from 'src/models';
+import { OneOrMany } from '@website/models';
 import styles from './button.module.css';
 
 /* eslint-disable-next-line */

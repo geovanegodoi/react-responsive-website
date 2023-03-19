@@ -3,24 +3,6 @@ import styles from './stats.module.css';
 /* eslint-disable-next-line */
 export interface StatsProps {}
 
-const statItems: { icon: string; value: string; subtitle: string }[] = [
-  {
-    icon: 'fas fa-server fa-3x',
-    value: '10,349,405',
-    subtitle: 'Deployments',
-  },
-  {
-    icon: 'fas fa-upload fa-3x',
-    value: '987 TB',
-    subtitle: 'Published',
-  },
-  {
-    icon: 'fas fa-project-diagram fa-3x',
-    value: '2,343,265',
-    subtitle: 'Projects',
-  },
-];
-
 export function Stats(props: StatsProps) {
   return (
     <section className={styles['stats']}>
@@ -44,3 +26,21 @@ export function Stats(props: StatsProps) {
 }
 
 export default Stats;
+
+const statItems: { icon: string; value: string; subtitle: string }[] = [
+  {
+    icon: 'fas fa-server fa-3x',
+    value: '10,349,405',
+    subtitle: 'Deployments',
+  },
+  {
+    icon: 'fas fa-upload fa-3x',
+    value: '987 TB',
+    subtitle: 'Published',
+  },
+  {
+    icon: 'fas fa-project-diagram fa-3x',
+    value: '2,343,265',
+    subtitle: 'Projects',
+  },
+];

@@ -1,8 +1,20 @@
-import { Card } from '../../../components/shared';
+import { Card } from '@website/components/shared';
 import styles from './features-list.module.css';
 
 /* eslint-disable-next-line */
 export interface FeaturesListProps {}
+
+export function FeaturesList(props: FeaturesListProps) {
+  return (
+    <section className={styles['features-list']}>
+      {features.map((feature, index) => (
+        <Card text={feature.text} image={feature.icon} variant="icon" />
+      ))}
+    </section>
+  );
+}
+
+export default FeaturesList;
 
 const features: { icon: string; text: string }[] = [
   {
@@ -30,15 +42,3 @@ const features: { icon: string; text: string }[] = [
     text: 'Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, magnam.',
   },
 ];
-
-export function FeaturesList(props: FeaturesListProps) {
-  return (
-    <section className={styles['features-list']}>
-      {features.map((feature, index) => (
-        <Card text={feature.text} image={feature.icon} variant="icon" />
-      ))}
-    </section>
-  );
-}
-
-export default FeaturesList;

@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
-import { Button } from '../../components/shared';
+import { Button } from '@website/components/shared';
 import styles from './not-found-page.module.css';
-import ImgRobot from '../../assets/robot.png';
+import { robot } from '@website/assets';
 
 /* eslint-disable-next-line */
 export interface NotFoundPageProps {}
@@ -9,7 +9,7 @@ export interface NotFoundPageProps {}
 export function NotFoundPage(props: NotFoundPageProps) {
   return (
     <div className={styles['not-found-page']}>
-      <img src={ImgRobot} alt="robot" />
+      <img src={robot} alt="robot" />
       <div className={styles['not-found-text']}>
         <h1>404</h1>
         <h2>Page not found</h2>

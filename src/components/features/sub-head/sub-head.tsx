@@ -1,5 +1,5 @@
 import styles from './sub-head.module.css';
-import ServerImg from '../../../assets/server2.png';
+import { server2 } from '@website/assets';
 
 /* eslint-disable-next-line */
 export interface SubHeadProps {}
@@ -16,7 +16,7 @@ export function SubHead(props: SubHeadProps) {
           nam alias culpa. Nostrum, inventore accusantium!
         </p>
       </div>
-      <img src={ServerImg} alt="server" />
+      <img src={server2} alt="server" />
     </section>
   );
 }

@@ -1,5 +1,5 @@
 import { Form } from 'react-router-dom';
-import { Button } from '../../../components/shared';
+import { Button } from '@website/components/shared';
 import styles from './showcase-form.module.css';
 
 /* eslint-disable-next-line */

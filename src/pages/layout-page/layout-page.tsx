@@ -1,5 +1,5 @@
 import { Outlet } from 'react-router';
-import { Footer, Navbar } from '../../components/shared';
+import { Footer, Navbar } from '@website/components/shared';
 import styles from './layout-page.module.css';
 
 /* eslint-disable-next-line */

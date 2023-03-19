@@ -1,7 +1,6 @@
 import type { Meta } from '@storybook/react';
 import { Head } from './head';
-import ImgServer from '../../../assets/server.png';
-import ImgDocs from '../../../assets/docs.png';
+import { server, docs } from '@website/assets';
 
 const Story: Meta<typeof Head> = {
   component: Head,
@@ -14,7 +13,7 @@ export const Features = {
     title: 'Features',
     subTitle:
       'Check out the features of Loruki that separate us from the competition',
-    image: ImgServer,
+    image: server,
   },
 };
 
@@ -22,6 +21,6 @@ export const Docs = {
   args: {
     title: 'Docs',
     subTitle: 'Learn how to work with the infrastructure platform',
-    image: ImgDocs,
+    image: docs,
   },
 };

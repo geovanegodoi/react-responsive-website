@@ -1,6 +1,6 @@
 import styles from './cli.module.css';
-import CliPng from '../../../assets/cli.png';
-import { Card } from '../../../components/shared';
+import { cli } from '@website/assets';
+import { Card } from '@website/components/shared';
 
 /* eslint-disable-next-line */
 export interface CliProps {}
@@ -9,7 +9,7 @@ export function Cli(props: CliProps) {
   return (
     <section className={styles['cli']}>
       <div className={styles['cli-grid']}>
-        <img src={CliPng} alt="cli" />
+        <img src={cli} alt="cli" />
         <Card text="Easy to use, cross platform CLI" />
         <Card text="Deploy in seconds" />
       </div>

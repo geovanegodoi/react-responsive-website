@@ -7,7 +7,8 @@
     "build": "nx build react-responsive-website",
     "test": "nx test react-responsive-website",
     "storybook": "NODE_OPTIONS=--openssl-legacy-provider nx run react-responsive-website:storybook",
-    "lint": "nx lint react-responsive-website"
+    "lint": "nx lint react-responsive-website",
+    "deploy": "firebase deploy"
   },
   "private": true,
   "dependencies": {
@@ -60,7 +61,7 @@
     "url-loader": "^4.1.1",
     "vite": "^4.0.1",
     "vite-plugin-eslint": "^1.8.1",
-    "vite-tsconfig-paths": "^4.0.2",
+    "vite-tsconfig-paths": "^4.0.7",
     "vitest": "^0.25.8"
   }
 }

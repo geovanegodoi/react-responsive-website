@@ -6,3 +6,5 @@ export * from './footer/footer';
 export * from './head/head';
 export * from './navbar/navbar';
 export * from './social-media/social-media';
+export * as CodeStories from './code/code.stories';
+export * as HeadStories from './head/head.stories';

@@ -18,7 +18,17 @@
     "esModuleInterop": false,
     "allowSyntheticDefaultImports": true,
     "strict": true,
-    "types": ["vite/client", "vitest"]
+    "types": ["vite/client", "vitest"],
+    "paths": {
+      "@website/assets": ["src/assets/index.ts"],
+      "@website/components/docs": ["src/components/docs/index.ts"],
+      "@website/components/features": ["src/components/features/index.ts"],
+      "@website/components/home": ["src/components/home/index.ts"],
+      "@website/components/shared": ["src/components/shared/index.ts"],
+      "@website/models": ["src/models/index.ts"],
+      "@website/pages": ["src/pages/index.ts"],
+      "@website/routes": ["src/routes/index.tsx"]
+    }
   },
   "files": [],
   "include": [],

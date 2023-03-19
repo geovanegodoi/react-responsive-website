@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import SocialMedia from '../social-media/social-media';
+import { SocialMedia } from '@website/components/shared';
 import styles from './footer.module.css';
 
 /* eslint-disable-next-line */

@@ -1,6 +1,6 @@
 import styles from './cloud.module.css';
-import CloudImg from '../../../assets/cloud.png';
-import { Button } from '../../../components/shared';
+import { cloud } from '@website/assets';
+import { Button } from '@website/components/shared';
 
 /* eslint-disable-next-line */
 export interface CloudProps {}
@@ -15,7 +15,7 @@ export function Cloud(props: CloudProps) {
         </p>
         <Button variant="dark">Read More</Button>
       </div>
-      <img src={CloudImg} alt="cloud" />
+      <img src={cloud} alt="cloud" />
     </section>
   );
 }

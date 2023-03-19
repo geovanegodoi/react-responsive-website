@@ -1,5 +1,5 @@
-import SummarySection from '../summary-section/summary-section';
 import styles from './summary.module.css';
+import SummarySection from '../summary-section/summary-section';
 import * as Stories from '../summary-section/summary-section.stories';
 
 /* eslint-disable-next-line */

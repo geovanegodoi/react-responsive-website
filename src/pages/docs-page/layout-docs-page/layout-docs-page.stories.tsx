@@ -1,5 +1,5 @@
 import type { Meta } from '@storybook/react';
-import { Footer, Navbar } from '../../../components/shared';
+import { Footer, Navbar } from '@website/components/shared';
 import { LayoutDocsPage } from './layout-docs-page';
 
 const Story: Meta<typeof LayoutDocsPage> = {

@@ -1,5 +1,4 @@
 import styles from './head.module.css';
-import ServerImg from '../../../assets/server.png';
 
 /* eslint-disable-next-line */
 export interface HeadProps {

@@ -1,8 +1,7 @@
 import styles from './layout-docs-page.module.css';
-import { Head } from '../../../components/shared';
 import { Outlet } from 'react-router';
-import { Summary } from 'src/components/docs';
-import * as Stories from '../../../components/shared/head/head.stories';
+import { Head, HeadStories } from '@website/components/shared';
+import { Summary } from '@website/components/docs';
 
 /* eslint-disable-next-line */
 export interface LayoutDocsPageProps {}
@@ -10,7 +9,7 @@ export interface LayoutDocsPageProps {}
 export function LayoutDocsPage(props: LayoutDocsPageProps) {
   return (
     <div className={styles['docs-page']}>
-      <Head {...Stories.Docs.args} />
+      <Head {...HeadStories.Docs.args} />
       <div className={styles['docs-page-grid']}>
         <Summary />
         <Outlet />

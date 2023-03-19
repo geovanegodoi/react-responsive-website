@@ -4,6 +4,8 @@ import {
   Route,
   RouterProvider,
 } from 'react-router-dom';
+
+import {} from '@website/components/docs';
 import {
   AboutPage,
   FeaturesPage,
@@ -13,7 +15,9 @@ import {
   LayoutDocsPage,
   LayoutPage,
   NotFoundPage,
-} from '../pages';
+  SetupContainerPage,
+  UsingCliPage,
+} from '@website/pages';
 
 const appRoutes = createBrowserRouter(
   createRoutesFromElements(
@@ -24,6 +28,8 @@ const appRoutes = createBrowserRouter(
         <Route index element={<IntroductionPage />} />
         <Route path="about" element={<AboutPage />} />
         <Route path="installation" element={<InstallationPage />} />
+        <Route path="setup-container" element={<SetupContainerPage />} />
+        <Route path="using-cli" element={<UsingCliPage />} />
         <Route path="*" element={<NotFoundPage />} />
       </Route>
       <Route path="*" element={<NotFoundPage />} />
