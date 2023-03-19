@@ -9,5 +9,4 @@ export default Story;
 
 export const Primary = {
   args: {},
-  git,
 };
